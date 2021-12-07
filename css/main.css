@@ -1,3 +1,9 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
 body{
 	font-family: 'Inter', sans-serif;
 	font-size: 18px;
@@ -20,7 +26,7 @@ p {
 }
 
 .container{
-	max-width: 1380px;
+	max-width: 1160px;
 	margin: 0 auto;
 }
 
@@ -543,7 +549,6 @@ h1{
 
 .apps__advantages{
 	width: 550px;
-	margin-left: 160px;
 }
 
 .apps__advantages h2{
@@ -586,6 +591,7 @@ h1{
 	box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
 	border-radius: 4px;
 	font-size: 18px;
+	margin-left: 16px;x
 }
 
 .apps__blocks{
@@ -594,6 +600,10 @@ h1{
 	margin: 0 auto;
 	width: 1056px;
 	text-align: center;
+}
+
+.apps__buttons{
+	justify-content: start;
 }
 
 .apps__blocks h3{
@@ -827,14 +837,17 @@ h1{
 
 .section__form{
 	margin-top: 150px;
-	padding: 38px;
 }
 
 
 .form__bg{
 	background: url('../img/Rectangle22.png');
 	width: 100%;
-	height: 466px;
+	padding: 55px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .form__title{
@@ -842,4 +855,72 @@ h1{
 	line-height: 64px;
 	text-align: center;
 	color: #212B31;
+	margin-top: 60px;
+}
+
+.form__btn__group{
+	margin: 54px 0 62px;
+}
+
+.footer{
+	margin-top: 150px;
+}
+
+.footer__nav{
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact{
+	font-size: 16px;
+	line-height: 24px;
+	color: #72787D;
+	margin-top: 15px;
+}
+
+.social__link{
+	margin-top: 20px;
+}
+
+.footer__title{
+	font-size: 16px;
+	line-height: 24px;
+	color: #212B31;
+}
+
+.footer__list{
+	list-style: none;
+	margin-top: 15px;
+	
+}
+
+.footer__list li{
+	margin-top: 8px;
+}
+
+.footer__list a{
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 24px;
+	color: #72787D;
+}
+
+.footer__down__zone{
+	border-top: 1px solid #DADEDF;
+	margin-top: 160px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 16px;
+	line-height: 24px;
+	padding: 32px 0 33px;
+}
+
+.footer__down__zone p{
+	color: #72787D;
+}
+
+.footer__down__zone a{
+	text-decoration: none;
+	
+	color: #72787D;
 }
